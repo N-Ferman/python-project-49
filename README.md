@@ -20,3 +20,5 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=N-Ferman_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=N-Ferman_python-project-49)
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=N-Ferman_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=N-Ferman_python-project-49)
+
+https://asciinema.org/a/nGeRF8dk6krJl5fjKWM8NRW1F
