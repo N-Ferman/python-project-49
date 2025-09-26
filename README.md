@@ -22,3 +22,5 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=N-Ferman_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=N-Ferman_python-project-49)
 
 https://asciinema.org/a/nGeRF8dk6krJl5fjKWM8NRW1F
+
+https://asciinema.org/connect/015f7264-9abe-40dd-96ff-73f04ea68111
