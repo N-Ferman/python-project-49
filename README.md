@@ -30,3 +30,17 @@ https://asciinema.org/a/Y83FBIXzq90BzMcXdo8UZBJZq
 https://asciinema.org/a/MUebdvZdYnwIMTqaW7HlJ8Pag
 
 https://asciinema.org/a/qu9Ix7J0nNlKtAn1LxlElfSWk
+
+### Setup
+
+```bash
+make install
+```
+
+This project was built using these tools:
+
+### Links
+
+| Tool                                                                   | Description                                             |
+|------------------------------------------------------------------------|---------------------------------------------------------|
+| [uv](https://docs.astral.sh/uv/)                                       | "An extremely fast Python package and project manager, written in Rust" |
