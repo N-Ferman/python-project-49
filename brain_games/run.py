@@ -3,6 +3,7 @@ from brain_games.games.calc import function_calc
 from brain_games.games.cli import welcome_user
 from brain_games.games.even import function_even
 from brain_games.games.gcd import function_gcd
+from brain_games.games.progression import function_progression
 from brain_games.games.general import (
     ROUNDS_TO_WIN,
     ask_question,
@@ -20,6 +21,7 @@ def choose_game():
     print('1 - Even')   
     print('2 - Calc')
     print('3 - GCD')
+    print('4 - Progression')
     name_game = int(input())
     match name_game:
         case 1:
@@ -28,6 +30,8 @@ def choose_game():
             return function_calc
         case 3:
             return function_gcd
+        case 4:
+            return function_progression
         case _:
             return None
 
