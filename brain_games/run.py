@@ -3,7 +3,6 @@ from brain_games.games.calc import function_calc
 from brain_games.games.cli import welcome_user
 from brain_games.games.even import function_even
 from brain_games.games.gcd import function_gcd
-from brain_games.games.progression import function_progression
 from brain_games.games.general import (
     ROUNDS_TO_WIN,
     ask_question,
@@ -14,6 +13,8 @@ from brain_games.games.general import (
     print_question,
     print_wrong,
 )
+from brain_games.games.prime import function_prime
+from brain_games.games.progression import function_progression
 
 
 def choose_game():
@@ -22,6 +23,7 @@ def choose_game():
     print('2 - Calc')
     print('3 - GCD')
     print('4 - Progression')
+    print('5 - Prime')
     name_game = int(input())
     match name_game:
         case 1:
@@ -32,6 +34,8 @@ def choose_game():
             return function_gcd
         case 4:
             return function_progression
+        case 5:
+            return function_prime
         case _:
             return None
 
