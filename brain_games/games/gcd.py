@@ -7,7 +7,7 @@ def function_gcd():
     number2 = generate_random_number()
 
     correct_answer = str(max_divisor(number1, number2))
-    expression = f'{number1}  {number2}'
+    expression = f'{number1} {number2}'
     return question, expression, correct_answer
 
 
