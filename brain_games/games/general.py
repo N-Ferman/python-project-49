@@ -25,8 +25,9 @@ def print_congratulations(count, name):
 
 
 def print_wrong(user_answer, correct_answer, name):
-    print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-    print(f"Let's try again, {name}!")
+    print(f"'{user_answer}' is wrong answer ;(. "
+          f"Correct answer was '{correct_answer}'."
+          f"\nLet's try again, {name}!")
 
 
 def print_question(string):
