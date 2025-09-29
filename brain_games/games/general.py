@@ -7,7 +7,7 @@ def ask_question(expression):
 
 def generate_random_number():
     import random
-    return random.randint(0, 100) #NOSONAR
+    return random.randint(0, 100)  # NOSONAR
 
 
 def get_user_answer():

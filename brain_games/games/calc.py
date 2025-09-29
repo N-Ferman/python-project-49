@@ -31,7 +31,7 @@ def function_calc():
     question = 'What is the result of the expression?'
     number1 = generate_random_number()
     number2 = generate_random_number()
-    sign = random.choice(['+', '-', '*']) #NOSONAR
+    sign = random.choice(['+', '-', '*'])  # NOSONAR
     correct_answer = str(calculate(number1, number2, sign))
     expression = f'{number1} {sign} {number2}'
     return question, expression, correct_answer

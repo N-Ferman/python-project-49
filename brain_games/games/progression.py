@@ -7,7 +7,7 @@ def function_progression():
     start = generate_random_number()
     step = generate_random_number()
     length = 10
-    hidden_index = random.randint(0, length - 1) #NOSONAR
+    hidden_index = random.randint(0, length - 1)  # NOSONAR
     progression_list = [str(start + step * i) for i in range(length)]
     correct_answer = progression_list[hidden_index]
     progression_list[hidden_index] = '..'
